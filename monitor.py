@@ -7,8 +7,8 @@ import time
 
 # --- CONFIGURATION ---
 # Get credentials from GitHub Secrets (Environment Variables)
-BOT_TOKEN = os.environ.get('TELEGRAM_BOT_TOKEN')
-CHAT_ID = os.environ.get('TELEGRAM_CHAT_ID')
+BOT_TOKEN = os.environ.get('8913944300:AAHSMX6eBMKlPkWNtq9yfYlB53ZG3ooZM_E')
+CHAT_ID = os.environ.get('5970173028')
 TARGET_URL = "https://example.com"  # CHANGE THIS TO YOUR TARGET URL
 
 # File to store state (GitHub Actions resets every run, so we use a simple file commit strategy or just compare against a known baseline if needed. 
